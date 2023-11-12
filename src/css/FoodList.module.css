@@ -1,0 +1,8 @@
+.food-list-container {
+  display: flex;
+  border-bottom: solid #ffffff69 2px;
+  padding: 13px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,114 @@
+.card-container {
+  z-index: 102;
+  position: fixed;
+  background-color: #f0f8fffa;
+  width: 500px;
+  margin-left: 393px;
+  display: flex;
+  width: 561px;
+  border-radius: 3%;
+  flex-direction: column;
+  padding: 13px;
+  margin-top: 154px;
+}
+.ineer-container {
+  display: flex;
+  flex-direction: column;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+}
+.container4 {
+  margin-right: 3px;
+  margin-bottom: 20px;
+  border: solid orange 2px;
+  width: 80px;
+  background-color: #ffeb89f0;
+  border-radius: 7px;
+  text-align: center;
+}
+.button-styles {
+  text-align: center;
+}
+.button-styles button {
+  background-color: rgb(255 188 38);
+  border-radius: 14%;
+  padding: 5px;
+  font-weight: bold;
+  width: 67px;
+  border: solid 2px #d56c4a;
+  margin: 4px;
+  cursor: pointer;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-containar0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 6%;
+  border-bottom: solid 2px orange;
+  padding-bottom: 6px;
+}
+.div1 {
+  width: 220px;
+}
+.div2 button {
+  border-radius: 13%;
+  font-size: 22px;
+  background-color: #ffaa2b;
+  height: 28px;
+  border: solid 2px #dd5a32;
+  width: 33px;
+  margin: 3px;
+  cursor: pointer;
+}
+.div3 {
+  border: solid 2px orange;
+  width: 31px;
+  background-color: #fff252;
+  height: 31px;
+  text-align: center;
+  border-radius: 6px;
+}
+.loadingMessage {
+  margin-top: 270px;
+  margin-left: 495px;
+  font-size: 18px;
+  border-radius: 48%;
+  height: 70px;
+  width: 306px;
+  padding: 17px;
+  background-color: #f19000;
+  z-index: 102;
+  text-align: center;
+}
+.errors {
+  margin-top: 270px;
+  margin-left: 495px;
+  font-size: 18px;
+  border-radius: 48%;
+  height: 70px;
+  width: 306px;
+  padding: 17px;
+  background-color: #f93c00eb;
+  z-index: 102;
+  text-align: center;
+}
+.submition {
+  margin-top: 270px;
+  margin-left: 495px;
+  font-size: 18px;
+  border-radius: 48%;
+  height: 70px;
+  width: 306px;
+  padding: 13px;
+  background-color: #219716be;
+  z-index: 102;
+  text-align: center;
+}

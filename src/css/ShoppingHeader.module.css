@@ -1,0 +1,43 @@
+.shoping-container {
+  cursor: pointer;
+  width: 235px;
+  border: solid #b53f3fb8 2px;
+  height: 56px;
+  background-color: #f7c701;
+  text-align: center;
+  padding: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.total-num {
+  border-radius: 31%;
+  font-weight: bolder;
+  color: #f3efef;
+  background: #e35a07;
+  height: 23px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bolding-classes {
+  animation: bolding 300ms;
+}
+@keyframes bolding {
+  0% {
+    width: 235px;
+    height: 56px;
+  }
+  50% {
+    width: 249px;
+    height: 63px;
+  }
+  100% {
+    width: 235px;
+    height: 56px;
+  }
+}

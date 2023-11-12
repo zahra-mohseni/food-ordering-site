@@ -1,0 +1,12 @@
+.display-styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.massage {
+  color: white;
+  border-radius: 8%;
+  padding: 55px;
+  margin-top: 162px;
+  background-color: #244663e3;
+}

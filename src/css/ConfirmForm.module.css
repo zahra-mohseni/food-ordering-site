@@ -1,0 +1,31 @@
+.buttons {
+  text-align: center;
+  margin: 10px;
+}
+.buttons button {
+  cursor: pointer;
+  background-color: #fd9700;
+  padding: 5px;
+  border-radius: 16%;
+  margin-right: 9px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 76px;
+  border: solid 2px #ff7043;
+}
+.inputs {
+  border: solid 1px orange;
+  background-color: #ffeb3b7a;
+  margin: 3px;
+  font-size: 17px;
+  height: 30px;
+}
+.form-styles {
+  padding-top: 15px;
+  border-top: solid 2px orange;
+  overflow-y: scroll;
+  height: 120px;
+}
+.invalid {
+  background-color: #ff000040;
+}
